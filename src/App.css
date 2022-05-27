@@ -1,0 +1,76 @@
+.App{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+
+}
+
+.postField{
+  width: 400px;
+  height: 150px;
+  outline-color: #5a3723;
+  border: 1px solid #5a3723; 
+  margin-top: 5px;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.Post-Card{
+  width: 425px;
+  background-color: white;
+  box-shadow: 1px 1px rgb(192, 191, 191), -0.1em 0 0.5em rgb(192, 191, 191);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.blog-header{
+  color: white;
+}
+
+.Post-Text{
+  margin: 5px;
+}
+
+.Delete-Button{
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: #5a3723;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.Post-Field-Box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 10px;
+}
+
+.Post-Button{
+  height: 30px;
+  background-color: #5a3723;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 1px rgb(192, 191, 191), -0.1em 0 0.5em rgb(192, 191, 191);
+}
+
+.No-Post-Card{
+  width: 425px;
+  background-color: white;
+  box-shadow: 1px 1px rgb(192, 191, 191), -0.1em 0 0.5em rgb(192, 191, 191);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty{
+  color: #5a3723;
+}
